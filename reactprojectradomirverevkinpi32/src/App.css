@@ -1,0 +1,139 @@
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #f9f9f9;
+}
+
+.loading {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+    .control-group:last-child {
+        border-bottom: none;
+    }
+
+    .control-group h4 {
+        margin: 0 0 8px 0;
+        color: #2E8B57;
+    }
+
+.controls button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+    .controls button:hover {
+        background-color: #45a049;
+    }
+
+.simulation-container {
+    flex-grow: 1;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f8ff;
+}
+
+.environment {
+    background-color: #f0f8ff;
+}
+
+.stats {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 600px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    .stats h3 {
+        margin-top: 0;
+        color: #2E8B57;
+    }
+
+    .stats h4 {
+        margin: 15px 0 5px 0;
+        color: #2E8B57;
+    }
+
+    .stats p {
+        margin: 3px 0;
+        font-size: 14px;
+    }
+
+input[type="range"] {
+    width: 100%;
+    background: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 16px;
+        height: 16px;
+        background: #4CAF50;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
