@@ -90,8 +90,6 @@ export default class Environment {
                 sunlight *= (1 - shadowFactor * shadow.opacity);
             }
         }
-
-        console.log('Final sunlight value:', sunlight);
         return Math.max(0, Math.min(1, sunlight));
     }
     getNearbyNutrients(x, y, radius) {
