@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sunflower, Violet } from './Plant';
+import { Sunflower, Fern, Violet } from './Plant';
 
 function Controls({
     isRunning,

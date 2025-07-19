@@ -1,4 +1,4 @@
-import { Sunflower, Violet } from './Plant';
+import { Sunflower, Fern, Violet } from './Plant';
 import Environment from './Environment';
 
 export default class Simulation {
